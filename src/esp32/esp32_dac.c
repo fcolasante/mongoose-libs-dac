@@ -35,3 +35,7 @@ bool mgos_dac_output_enable(int pin){
 int mgos_dac_output_voltage(int pin, int dac_value){
     return dac_output_voltage(pin, dac_value);
 }
+
+bool mgos_mongoose_libs_dac_init(void){
+  return true;
+}
