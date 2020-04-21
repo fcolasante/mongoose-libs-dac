@@ -2,6 +2,7 @@
     "files.associations": {
         "esp_adc_cal.h": "c",
         "dac.h": "c",
-        "esp32_dac.h": "c"
+        "esp32_dac.h": "c",
+        "gpio.h": "c"
     }
 }

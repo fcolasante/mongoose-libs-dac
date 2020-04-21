@@ -18,7 +18,7 @@
 #include "esp32/esp32_dac.h"
 
 #include <stdbool.h>
-
+#include "driver/gpio.h"
 #include "driver/dac.h"
 #include "esp_adc_cal.h"
 
